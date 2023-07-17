@@ -10,10 +10,10 @@ df = pd.read_csv("https://content.codecademy.com/programs/data-science-path/line
 
 prod_per_year = df.groupby('year').totalprod.mean().reset_index()
 
-X = df['year']
+X = prod_per_year['year']
 X = X.values.reshape(-1, 1)
 
-y = df['totalprod']
+y = prod_per_year['totalprod']
 
 plt.scatter(X, y)
 plt.show()
