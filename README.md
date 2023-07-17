@@ -1,3 +1,2 @@
 # pp
-
-This is all python practice related to  machine learning
+python practice 2023 edition
