@@ -1,0 +1,5 @@
+from tree import tree, classify
+
+car = ["med", "med", "4", "more", "med", "high"]
+
+print(classify(car, tree))
